@@ -1,0 +1,28 @@
+
+body{
+	background-image: url("photos/bg2.jpg");
+	background-size: cover; 
+	background-repeat: no-repeat;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 20px;
+}
+h3{
+	color: white;
+}
+img{
+	  box-shadow: 0;
+  transform: scale(0.95);
+  transition: box-shadow .5s ease-in-out, transform .5s ease-in-out;
+}
+img:hover{
+  transform: scale(1);
+  box-shadow: 5px 20px 30px rgba(0,0,0,.2);
+    filter:grayscale(0);
+}
+table th{
+	color: white;
+   text-align: center; 
+}
+table td{
+	text-align: center; 
+}
